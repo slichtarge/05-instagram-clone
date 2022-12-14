@@ -1,3 +1,7 @@
+body{
+    font-family:'lucida grande', tahoma, verdana, arial, sans-serif;
+}
+
 header{
     width:100%;
     position: fixed;
@@ -73,7 +77,7 @@ img{
 .mainshell{
     position: relative;
     top: 65px;
-    height: 1420px;
+    height: 2460px;
     background-color:rgb(246, 246, 246);
     /* weird white strip on either side of the page?? */
     /* margin-left:0px;
@@ -82,6 +86,7 @@ img{
 
 .mainshell > *{
     outline: 1px solid black;
+    background-color: white;
 }
 
 .post{
@@ -94,7 +99,7 @@ img{
     margin-left: 70px;
 }
 
-.sidebar{
+/* .sidebar{
     height:530px;
     width:475px;
     display: block;
@@ -102,6 +107,12 @@ img{
     position:fixed;
     margin-top: 40px;
     right: 150px;
+} */
+.sidebar{
+    height:530px;
+    width:475px;
+    position:fixed;
+    background-color: black;
 }
 
 .suggestions{
@@ -119,13 +130,13 @@ img{
 }
 
 .post-top{
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     position: relative;
     height:75px;
 }
 
 .post-top > *{
-    outline: 1px dashed black;
+    /* outline: 1px dashed black; */
     display: block;
     display: inline-block;
 }
@@ -138,20 +149,26 @@ img{
 #dwayneshell{
     position:relative;
     top:15px;
-    left: 5px;
+    left: 15px;
+    width:40px;
+    /* outline: 1px solid black; */
 }
 
 #dwayne{
     position: relative;
+    padding: 0px;
+    border-radius: 50%;
+    overflow: hidden;
     width:40px;
     height: 40px;
+    object-fit: cover;
     top: 0px;
     left: 0px;
 }
 
 #userdwayneshell{
     position: relative;
-    left: 10px;
+    left: 20px;
 }
 
 #userdwayne{
@@ -159,7 +176,7 @@ img{
 }
 
 .post-pic{
-    outline: 1px solid purple;
+    /* outline: 1px solid purple; */
     height:700px;
     display: flex;
 }
@@ -193,16 +210,61 @@ img{
 }
 
 .post-icons{
-    outline: 1px solid green;
+    /* outline: 1px solid green; */
     height:50px;
 }
 
 .post-caption{
-    outline: 1px solid blue;
+    /* outline: 1px solid blue; */
     height:100px;
+    position: relative;
+    top:-9px;
 }
 
-.post-timestamp{
-    outline: 1px solid blueviolet;
-    height:75px;
+.post-caption > *{
+    /* outline: 1px dashed green; */
+    position: relative;
+    left:15px;
+    width: 668px;
+}
+
+#strong{
+    font-weight: bold;
+}
+
+.post-comments{
+    /* outline: 1px solid blueviolet; */
+    height:60px;
+}
+
+.post-comments >*{
+    display: block;
+    display: inline-block;
+}
+
+#timestamp{
+    border-bottom: 1px solid rgb(176, 197, 81);
+    padding-bottom: 20px;
+    color: grey;
+}
+
+.commentbarshell{
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+
+#commentbar{
+    text-align:left;
+    width: 260px;
+    height: 25px;
+    font-size: 15px;
+    border: none;
+}
+
+.commenticonshell{
+    float: right;
+    position: relative;
+    right: 20px;
+    top: 10px;
 }
