@@ -69,8 +69,16 @@ img{
     font-size: 15px;
     background-color:rgb(246, 246, 246);
     border:1px solid rgb(202, 201, 201);
+    border-radius: 2px;
 }
 
+#topsearchbar:focus{
+    text-align: left;
+}
+
+#topsearchbar:focus::placeholder{
+    color: transparent;
+}
 
 /* BODY */
 
@@ -85,35 +93,36 @@ img{
 }
 
 .mainshell > *{
-    outline: 1px solid black;
+    outline: 1px solid rgb(202, 201, 201);
     background-color: white;
+    border-radius: 2px;
+}
+
+#post1{
+    display: block;
+    display: inline-block;
 }
 
 .post{
     
     height:1000px;
     width:700px;
-    display: block;
-    display: inline-block;
     margin-top: 40px;
     margin-left: 70px;
 }
 
-/* .sidebar{
-    height:530px;
-    width:475px;
-    display: block;
-    display: inline-block;
-    position:fixed;
-    margin-top: 40px;
-    right: 150px;
-} */
 .sidebar{
     height:530px;
     width:475px;
-    position:fixed;
-    background-color: black;
+    margin-top: 40px;
+    right: 150px; 
+    display: block;
+    display: inline-block;
+    position: fixed;
+    background-color: rgb(246, 246, 246);
+    outline: none;
 }
+
 
 .suggestions{
     margin-top: 40px;
@@ -126,7 +135,7 @@ img{
 /* POST INNERHTML */
 
 .post >*{
-    outline: black;
+    /* outline: black; */
 }
 
 .post-top{
@@ -243,7 +252,7 @@ img{
 }
 
 #timestamp{
-    border-bottom: 1px solid rgb(176, 197, 81);
+    border-bottom: 1px solid rgb(202, 201, 201);
     padding-bottom: 20px;
     color: grey;
 }
@@ -260,6 +269,9 @@ img{
     height: 25px;
     font-size: 15px;
     border: none;
+    font-family:'lucida grande', tahoma, verdana, arial, sans-serif;
+    color: black;
+    opacity: 80%;
 }
 
 .commenticonshell{
@@ -267,4 +279,235 @@ img{
     position: relative;
     right: 20px;
     top: 10px;
+}
+
+/* SUGGESTIONS CSS */
+
+.suggestions_header{
+    display:block;
+    display: inline-block;
+}
+
+#hA{
+    color: black;
+    opacity: 50%;
+    position: relative;
+    left: 30px;
+}
+
+#hB{
+    color: black;
+    opacity: 80%;
+    position: relative;
+    right: 20px;
+    top: 15px;
+    float: right;
+}
+
+#seeall{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(11, 125, 201);
+}
+
+.sugg{
+    display: block;
+    display: inline-block;
+    outline: 1px solid rgb(202, 201, 201);
+    height: 225px;
+    width: 195px;
+    margin-left: 30px;
+    border-radius: 2px;
+}
+
+#sugdwayneshell{
+    display:block;
+    display: inline-block;
+    position:relative;
+    top:15px;
+    left: 15px;
+    width:40px;
+    /* outline: 1px solid black; */
+}
+.xmark{
+    display: block;
+    display: inline-block;
+    position: relative;
+    left: 130px;
+    top:-35px;
+    color:rgb(202, 201, 201);
+}
+
+.dwaynefans{
+    position: relative;
+    padding: 0px;
+    border-radius: 50%;
+    overflow: hidden;
+    width:65px;
+    height: 65px;
+    object-fit: cover;
+    top: 5px;
+    left: 50px;
+}
+
+#usernameshell >*{
+    display: block;
+    display: inline-block;
+    /* outline: 1px solid red; */
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.vicon{
+    color:rgb(11, 125, 201);
+}
+
+.blurbdiv{
+    position: relative;
+    top:10px;
+    left: 40px;
+}
+
+.blurb{
+    font-size: 12px;
+    color: black;
+    opacity: 50%;
+}
+
+.followdiv{
+    position: relative;
+    top:15px;
+    left: 20px;
+}
+
+#follow{
+    width:155px;
+    height: 35px;
+    outline: none;
+    background-color:rgb(63, 161, 226);
+    color: white;
+    font-size:15px;
+    border: none;
+    border-radius:8px;
+}
+
+#follow:active {
+    border-style: outset;
+  }
+
+
+
+
+
+  /* SIDEBAR */
+
+  #fullname{
+    margin: 5px;
+    color:grey;
+    font-size:13px;
+  }
+
+  .sidebaruser1{
+    margin: 5px;
+  }
+
+  .sidebarheader >*{
+    margin: 0px;
+    /* outline: 1px solid red; */
+  }
+
+  #sbuserdwayneshell{
+    position: relative;
+    left: 40px;
+    /* outline: 1px solid blue; */
+}
+
+  #sidebardwayne{
+    position: relative;
+    padding: 0px;
+    border-radius: 50%;
+    overflow: hidden;
+    width:60px;
+    height: 60px;
+    object-fit: cover;
+    top: 0px;
+    left: 0px;
+    outline: 2px solid rgb(240, 24, 147);
+/*     
+    border: 5px solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 1; */
+    
+}
+
+#sb-top{
+    border-bottom: 1px solid rgb(202, 201, 201);
+    padding-bottom: 15px;
+}
+
+#sb-mid{
+    padding-bottom: 15px;
+}
+
+.breaker >*{
+    display:block;
+    display: inline-block;
+}
+
+.watchallshell{
+    /* top:100px; */
+    float:right;
+    /* outline: 1px solid green; */
+    padding-top: 5px;
+    padding-right: 10px;
+    
+    /* right:15px; */
+}
+
+#watchall{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    opacity:80%;
+}
+
+
+.storiesshell{
+    /* outline: 1px solid green; */
+    padding-left: 10px;
+    height: 40px;
+}
+
+#stories{
+    font-weight: bold;
+    opacity: 40%;
+}
+/* 
+.scrollable::-webkit-scrollbar{
+    display: none;
+} */
+
+.scrollable{
+    height: 300px;
+    overflow-y:auto;
+    border-bottom: 1px solid rgb(202, 201, 201);
+}
+
+.credits>*{
+    /* outline: 1px solid black; */
+    opacity: 40%;
+    font-size: 15px;
+}
+
+.creditlinks{
+    color: black;
+    opacity: 60%;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.nohr{
+    border: none;
 }
