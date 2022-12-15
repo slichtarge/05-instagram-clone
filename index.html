@@ -2,7 +2,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <meta charset="utf-8"/>
+        <meta charset="utf-8">
         <link href="style.css" type="text/css" rel="stylesheet">
         <script src="https://kit.fontawesome.com/2af3c3fc36.js" crossorigin="anonymous"></script>
         <title>Instagram Clone</title>
@@ -11,12 +11,12 @@
         <header>
             <div class = "headerstuff">
                 <div class = "topleft">
-                    <i class="fa-brands fa-instagram fa-2x" id="insta-icon"></i>
+                    <i class="insta-icon fa-brands fa-instagram fa-2x" ></i>
                     <img alt="instagram logo" src = "instagram.png">
                     <!-- src of logo: https://www.dafontfree.io/instagram-font/ -->
                 </div>
                 <div class = "topcenter">
-                    <input id = "topsearchbar" type="text" placeholder="&#xF002; Search" style="font-family:Arial, FontAwesome" />
+                    <input class = "topsearchbar" type="text" placeholder="&#xF002; Search" style="font-family:Arial, FontAwesome">
                 </div>
                 <div class = "topright">
                     <i class="headericon fa-regular fa-compass fa-2x"></i>
@@ -29,16 +29,16 @@
         <div class="mainshell">
             <div id="post1" class="post">
                 <div class= "post-top">
-                    <div class = "postheader" id="dwayneshell">
-                        <img id="dwayne" src ="dwayne.png" alt="its dwayne">
+                    <div class ="dwayneshell">
+                        <img class="dwayne" src ="dwayne.png" alt="its dwayne">
                         <!-- https://www.pngitem.com/so/dwayne-johnson/ -->
                     </div>
-                    <div class = "postheader" id="userdwayneshell">
-                        <p id ="userdwayne">dwaynes_biggest_fan_ever</p>
+                    <div class = "postheader userdwayneshell">
+                        <p class ="userdwayne">dwaynes_biggest_fan_ever</p>
                     </div>
                 </div>
                 <div class= "post-pic">
-                    <img id="jinx" alt = "jinx the cat" src = "jinx.png">
+                    <img class="jinx" alt = "jinx the cat" src = "jinx.png">
                 </div>
                 <div class= "post-icons">
                     <div class = "lbutton" id = "likebutton">
@@ -58,19 +58,19 @@
 
                 <div class= "post-caption">
                     <div>
-                        <p id = "strong">3 likes</p>
+                        <p class = "strong">3 likes</p>
                     </div>
                     <div>
                         <p><strong>dwaynes_biggest_fan_ever</strong> OH MY GOD DID YOU GUYS SEE WHAT DWAYNE POSTED</p>
                     </div>
                     <div>
-                        <p id = "timestamp">2 HOURS AGO</p>
+                        <p class = "timestamp">2 HOURS AGO</p>
                     </div>
                     
                 </div>
                 <div class= "post-comments">
                     <div class = "commentbarshell">
-                        <input id = "commentbar" type="text" placeholder="Add a comment..." style="font-family:Arial, FontAwesome" />
+                        <input class = "commentbar" type="text" placeholder="Add a comment..." style="font-family:Arial, FontAwesome">
                     </div>
                     <div class = "commenticonshell">
                         <i class="commenticon fa-solid fa-ellipsis fa-2x"></i>
@@ -84,74 +84,74 @@
 
             <div class="sidebar">
                 <div id = "sb-top" class= "post-top">
-                    <div class = "sidebarpic1" id="dwayneshell">
-                        <img id="sidebardwayne" src ="dwayne.png" alt="its dwayne">
+                    <div class = "dwayneshell">
+                        <img class="sidebardwayne" src ="dwayne.png" alt="its dwayne">
                         <!-- https://www.pngitem.com/so/dwayne-johnson/ -->
                     </div>
-                    <div class = "sidebarheader" id="sbuserdwayneshell">
-                        <div><p id ="userdwayne" class="sidebaruser1">dwaynes_biggest_fan_ever</p></div>
-                        <div><p id="fullname">Sara Lichtarge</p></div>
+                    <div class = "sidebarheader sbuserdwayneshell">
+                        <div><p class="userdwayne sidebaruser1">dwaynes_biggest_fan_ever</p></div>
+                        <div><p class="fullname">Sara Lichtarge</p></div>
                     </div>
                 </div>
 
                 <div class="scrollable">
                     <div class = "breaker">
                         <div class = "storiesshell"><p id = "stories">Stories</p></div>
-                        <div class="watchallshell"><p id ="watchall">Watch All</p></div>
+                        <div class="watchallshell"><p class ="watchall">Watch All</p></div>
                     </div>
                 
-                    <div id = "sb-mid" class= "post-top">
-                        <div class = "sidebarpic1" id="dwayneshell">
-                            <img id="sidebardwayne" src ="dwayne.png" alt="its dwayne">
+                    <div class= "sb-mid post-top">
+                        <div class ="dwayneshell">
+                            <img class="sidebardwayne" src ="dwayne.png" alt="its dwayne">
                             <!-- https://www.pngitem.com/so/dwayne-johnson/ -->
                         </div>
-                        <div class = "sidebarheader" id="sbuserdwayneshell">
-                            <div><p id ="userdwayne" class="sidebaruser1">dwaynes_biggest_fan_1</p></div>
-                            <div><p id="fullname">3 HOURS AGO</p></div>
+                        <div class = "sidebarheader sbuserdwayneshell">
+                            <div><p class="userdwayne sidebaruser1">dwaynes_biggest_fan_1</p></div>
+                            <div><p class="fullname">3 HOURS AGO</p></div>
                         </div>
                     </div>
 
-                    <div id = "sb-mid" class= "post-top">
-                        <div class = "sidebarpic1" id="dwayneshell">
-                            <img id="sidebardwayne" src ="dwayne.png" alt="its dwayne">
+                    <div class= "sb-mid post-top">
+                        <div class ="dwayneshell">
+                            <img class="sidebardwayne" src ="dwayne.png" alt="its dwayne">
                             <!-- https://www.pngitem.com/so/dwayne-johnson/ -->
                         </div>
-                        <div class = "sidebarheader" id="sbuserdwayneshell">
-                            <div><p id ="userdwayne" class="sidebaruser1">dwaynes_biggest_fan_2</p></div>
-                            <div><p id="fullname">4 HOURS AGO</p></div>
+                        <div class = "sidebarheader sbuserdwayneshell">
+                            <div><p class="sidebaruser1 userdwayne">dwaynes_biggest_fan_2</p></div>
+                            <div><p class="fullname">4 HOURS AGO</p></div>
                         </div>
                     </div>
 
-                    <div id = "sb-mid" class= "post-top">
-                        <div class = "sidebarpic1" id="dwayneshell">
-                            <img id="sidebardwayne" src ="dwayne.png" alt="its dwayne">
+                    <div class= "sb-mid post-top">
+                        <div class="dwayneshell">
+                            <img class="sidebardwayne" src ="dwayne.png" alt="its dwayne">
                             <!-- https://www.pngitem.com/so/dwayne-johnson/ -->
                         </div>
-                        <div class = "sidebarheader" id="sbuserdwayneshell">
-                            <div><p id ="userdwayne" class="sidebaruser1">dwaynes_biggest_fan_3</p></div>
-                            <div><p id="fullname">5 HOURS AGO</p></div>
+                        <div class = "sidebarheader sbuserdwayneshell">
+                            <div><p class="sidebaruser1 userdwayne">dwaynes_biggest_fan_3</p></div>
+                            <div><p class="fullname">5 HOURS AGO</p></div>
                         </div>
                     </div>
 
-                    <div id = "sb-mid" class= "post-top">
-                        <div class = "sidebarpic1" id="dwayneshell">
-                            <img id="sidebardwayne" src ="dwayne.png" alt="its dwayne">
+                    <div class= "sb-mid post-top">
+                        <div class ="dwayneshell">
+                            <img class="sidebardwayne" src ="dwayne.png" alt="its dwayne">
                             <!-- https://www.pngitem.com/so/dwayne-johnson/ -->
                         </div>
-                        <div class = "sidebarheader" id="sbuserdwayneshell">
-                            <div><p id ="userdwayne" class="sidebaruser1">dwaynes_biggest_fan_4</p></div>
-                            <div><p id="fullname">6 HOURS AGO</p></div>
+                        <div class = "sidebarheader sbuserdwayneshell">
+                            <div><p class="sidebaruser1 userdwayne">dwaynes_biggest_fan_4</p></div>
+                            <div><p class="fullname">6 HOURS AGO</p></div>
                         </div>
                     </div>
 
-                    <div id = "sb-mid" class= "post-top">
-                        <div class = "sidebarpic1" id="dwayneshell">
-                            <img id="sidebardwayne" src ="dwayne.png" alt="its dwayne">
+                    <div class= "sb-mid post-top">
+                        <div class ="dwayneshell">
+                            <img class="sidebardwayne" src ="dwayne.png" alt="its dwayne">
                             <!-- https://www.pngitem.com/so/dwayne-johnson/ -->
                         </div>
-                        <div class = "sidebarheader" id="sbuserdwayneshell">
-                            <div><p id ="userdwayne" class="sidebaruser1">dwaynes_biggest_fan_5</p></div>
-                            <div><p id="fullname">8 HOURS AGO</p></div>
+                        <div class = "sidebarheader sbuserdwayneshell">
+                            <div><p class="sidebaruser1 userdwayne">dwaynes_biggest_fan_5</p></div>
+                            <div><p class="fullname">8 HOURS AGO</p></div>
                         </div>
                     </div>
                 </div>
@@ -176,27 +176,27 @@
             
            <div id="post2" class="post">
                 <div class= "post-top">
-                    <div class = "postheader" id="dwayneshell">
-                        <img id="dwayne" src ="dwayne.png" alt="its dwayne">
+                    <div class ="dwayneshell">
+                        <img class="dwayne" src ="dwayne.png" alt="its dwayne">
                     </div>
-                    <div class = "postheader" id="userdwayneshell">
-                        <p id ="userdwayne">therock</p>
+                    <div class = "postheader userdwayneshell">
+                        <p class ="userdwayne">therock</p>
                     </div>
                 </div>
                 <div class= "post-pic">
-                    <img id="jinx" alt = "jinx the cat" src = "jinx.png">
+                    <img class="jinx" alt = "jinx the cat" src = "jinx.png">
                 </div>
                 <div class= "post-icons">
-                    <div class = "lbutton" id = "likebutton">
+                    <div class = "lbutton">
                         <i class="posticon fa-regular fa-heart fa-2x"></i>
                     </div>
-                    <div class = "lbutton" id = "commentbutton">
+                    <div class = "lbutton">
                         <i class="posticon fa-regular fa-comment fa-2x"></i>
                     </div>
-                    <div class = "lbutton" id = "sharebutton">
+                    <div class = "lbutton">
                         <i class="posticon fa-regular fa-arrow-up-from-bracket fa-2x"></i>
                     </div>
-                    <div class = "rbutton" id = "savebutton">
+                    <div class = "rbutton">
                         <i class="posticon fa-regular fa-bookmark fa-2x"></i>
                     </div>
 
@@ -204,19 +204,19 @@
 
                 <div class= "post-caption">
                     <div>
-                        <p id = "strong">1.3M likes</p>
+                        <p class = "strong">1.3M likes</p>
                     </div>
                     <div>
                         <p><strong>therock</strong> Felt cute, might delete later</p>
                     </div>
                     <div>
-                        <p id = "timestamp">3 HOURS AGO</p>
+                        <p class = "timestamp">3 HOURS AGO</p>
                     </div>
                     
                 </div>
                 <div class= "post-comments">
                     <div class = "commentbarshell">
-                        <input id = "commentbar" type="text" placeholder="Add a comment..." style="font-family:Arial, FontAwesome" />
+                        <input class = "commentbar" type="text" placeholder="Add a comment..." style="font-family:Arial, FontAwesome">
                     </div>
                     <div class = "commenticonshell">
                         <i class="commenticon fa-solid fa-ellipsis fa-2x"></i>
@@ -232,58 +232,58 @@
                 </div>
                 <div class="suggestions_body">
                     <div id="A" class="sugg">
-                        <div class = "postheader" id="sugdwayneshell">
+                        <div class = "postheader sugdwayneshell">
                             <img class="dwaynefans" src ="dwayne.png" alt="its dwayne">
                         </div>
                         <div class = "xmark">
                             <i class="fa-solid fa-x fa-xs"></i>
                         </div>
-                        <div id = "usernameshell">
+                        <div class = "usernameshell">
                             <div id = "suser">
-                                <p class = "suggacc" id = "strong">the_rock_lover</p>
+                                <p class = "suggacc strong">the_rock_lover</p>
                             </div>
                             <div id = "sverif"> 
                                 <i class="vicon fa-solid fa-certificate fa-lg"></i>
                             </div>
                         </div>
                         <div class="blurbdiv"><p class="blurb">Followed by therock</p></div>
-                        <div class="followdiv"><button id = "follow" type="submit">Follow</button></div>
+                        <div class="followdiv"><button class = "follow" type="submit">Follow</button></div>
                     </div>
                     <div id="B" class="sugg">
-                        <div class = "postheader" id="sugdwayneshell">
-                            <img class="dwaynefans" src ="dwayne.png" alt="its dwayne">
-                        </div>
-                        <div class = "xmark">
-                            <i class="fa-solid fa-x  fa-xs""></i>
-                        </div>
-                        <div id = "usernameshell">
-                            <div id = "suser">
-                                <p class = "suggacc" id = "strong">dwayne_die_hard</p>
-                            </div>
-                            <div id = "sverif"> 
-                                <i class="vicon fa-solid fa-certificate fa-lg"></i>
-                            </div>
-                        </div>
-                        <div class="blurbdiv"><p class="blurb">Followed by therock</p></div>
-                        <div class="followdiv"><button id = "follow" type="submit">Follow</button></div>
-                    </div>
-                    <div id="C" class="sugg">
-                        <div class = "postheader" id="sugdwayneshell">
+                        <div class = "postheader sugdwayneshell">
                             <img class="dwaynefans" src ="dwayne.png" alt="its dwayne">
                         </div>
                         <div class = "xmark">
                             <i class="fa-solid fa-x  fa-xs"></i>
                         </div>
-                        <div id = "usernameshell">
-                            <div id = "suser">
-                                <p class = "suggacc" id = "strong">dwayne_is_agod</p>
+                        <div class = "usernameshell">
+                            <div>
+                                <p class = "suggacc strong">dwayne_die_hard</p>
                             </div>
-                            <div id = "sverif"> 
+                            <div> 
                                 <i class="vicon fa-solid fa-certificate fa-lg"></i>
                             </div>
                         </div>
                         <div class="blurbdiv"><p class="blurb">Followed by therock</p></div>
-                        <div class="followdiv"><button id = "follow" type="submit">Follow</button></div>
+                        <div class="followdiv"><button class = "follow" type="submit">Follow</button></div>
+                    </div>
+                    <div id="C" class="sugg">
+                        <div class = "postheader sugdwayneshell">
+                            <img class="dwaynefans" src ="dwayne.png" alt="its dwayne">
+                        </div>
+                        <div class = "xmark">
+                            <i class="fa-solid fa-x  fa-xs"></i>
+                        </div>
+                        <div class = "usernameshell">
+                            <div >
+                                <p class = "suggacc strong">dwayne_is_agod</p>
+                            </div>
+                            <div> 
+                                <i class="vicon fa-solid fa-certificate fa-lg"></i>
+                            </div>
+                        </div>
+                        <div class="blurbdiv"><p class="blurb">Followed by therock</p></div>
+                        <div class="followdiv"><button class = "follow" type="submit">Follow</button></div>
                     </div>
                 </div>
             </div>

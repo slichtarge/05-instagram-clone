@@ -18,7 +18,7 @@ header{
     padding-bottom: 20px;
 }
 
-#insta-icon{
+.insta-icon{
     /* color:rgb(31, 31, 31); */
     opacity:70%;
 }
@@ -62,7 +62,7 @@ img{
     top:6px;
 }
 
-#topsearchbar{
+.topsearchbar{
     text-align:center;
     width: 260px;
     height: 25px;
@@ -72,11 +72,11 @@ img{
     border-radius: 2px;
 }
 
-#topsearchbar:focus{
+.topsearchbar:focus{
     text-align: left;
 }
 
-#topsearchbar:focus::placeholder{
+.topsearchbar:focus::placeholder{
     color: transparent;
 }
 
@@ -155,7 +155,7 @@ img{
     top: 10px;
 }
 
-#dwayneshell{
+.dwayneshell{
     position:relative;
     top:15px;
     left: 15px;
@@ -163,7 +163,7 @@ img{
     /* outline: 1px solid black; */
 }
 
-#dwayne{
+.dwayne{
     position: relative;
     padding: 0px;
     border-radius: 50%;
@@ -175,12 +175,12 @@ img{
     left: 0px;
 }
 
-#userdwayneshell{
+.userdwayneshell{
     position: relative;
     left: 20px;
 }
 
-#userdwayne{
+.userdwayne{
     font-weight: bold;
 }
 
@@ -208,7 +208,7 @@ img{
 }
 
 
-#jinx{
+.jinx{
     /* outline: 1px dashed black; */
     position: relative;
     top: 0px;
@@ -237,7 +237,7 @@ img{
     width: 668px;
 }
 
-#strong{
+.strong{
     font-weight: bold;
 }
 
@@ -251,7 +251,7 @@ img{
     display: inline-block;
 }
 
-#timestamp{
+.timestamp{
     border-bottom: 1px solid rgb(202, 201, 201);
     padding-bottom: 20px;
     color: grey;
@@ -263,7 +263,7 @@ img{
     top: 15px;
 }
 
-#commentbar{
+.commentbar{
     text-align:left;
     width: 260px;
     height: 25px;
@@ -321,7 +321,7 @@ img{
     border-radius: 2px;
 }
 
-#sugdwayneshell{
+.sugdwayneshell{
     display:block;
     display: inline-block;
     position:relative;
@@ -351,7 +351,7 @@ img{
     left: 50px;
 }
 
-#usernameshell >*{
+.usernameshell >*{
     display: block;
     display: inline-block;
     /* outline: 1px solid red; */
@@ -382,7 +382,7 @@ img{
     left: 20px;
 }
 
-#follow{
+.follow{
     width:155px;
     height: 35px;
     outline: none;
@@ -393,7 +393,7 @@ img{
     border-radius:8px;
 }
 
-#follow:active {
+.follow:active {
     border-style: outset;
   }
 
@@ -403,7 +403,7 @@ img{
 
   /* SIDEBAR */
 
-  #fullname{
+  .fullname{
     margin: 5px;
     color:grey;
     font-size:13px;
@@ -418,13 +418,13 @@ img{
     /* outline: 1px solid red; */
   }
 
-  #sbuserdwayneshell{
+  .sbuserdwayneshell{
     position: relative;
     left: 40px;
     /* outline: 1px solid blue; */
 }
 
-  #sidebardwayne{
+  .sidebardwayne{
     position: relative;
     padding: 0px;
     border-radius: 50%;
@@ -447,7 +447,7 @@ img{
     padding-bottom: 15px;
 }
 
-#sb-mid{
+.sb-mid{
     padding-bottom: 15px;
 }
 
@@ -466,7 +466,7 @@ img{
     /* right:15px; */
 }
 
-#watchall{
+.watchall{
     text-decoration: none;
     font-weight: bold;
     font-size: 12px;
